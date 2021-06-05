@@ -7,8 +7,8 @@ DIDs are cryptographically secure identifiers that are owned and controlled by a
 Identity records are used in everyones daily lives. Driver license is used as evidence to operate a vehicle, education institutions issue diplomas that prove the education qualifications, passports are used to prove the nationality, etc. Verifable Credential (VC) specification defines a model how we could issue, store and verify the data over the internat but in a secure manner that respects user's privacy.  
 
 ## Standards
-* [W3C Verifable Credentials](https://www.w3.org/TR/vc-data-model/, W3C Verifable Credentials)
-* [The Verifable Credential Data Model 1.0](https://www.w3.org/TR/vc-data-model/, Verifable Credential Data Model 1.0)
+* [W3C Verifable Credentials](https://www.w3.org/TR/vc-data-model/)
+* [The Verifable Credential Data Model 1.0](https://www.w3.org/TR/vc-data-model/)
 
 
 
