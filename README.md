@@ -11,7 +11,7 @@ Decentralized Identity (DID), also know as "self-sovereign identity" (or SSI) is
 
 DIDs are cryptographically secure identifiers that are owned and controlled by a user without a third party Identity Providers (IdPs). It enables the user to prove the ownership of the identity using thier wallet (eg. a mobile device). Using the DID, the user can obtain Verifiable Credentials (VCs) from trusted organizations and, subsequently, present elements of these credentials as proof of claims without the need to authenticate with service providers using usernames and passwords.
 
-DIDs use [Decentralized Public Key Infrastructure (DPKI)](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT.md) technology by providing identities for people, organizations, and [Internet of things (IoT)](https://en.wikipedia.org/wiki/Internet_of_things). DPKI returns control of online identities (eg. DIDs) to the entities they belong to, bringing the power of cryptography to everyday users by delegating the responsibility of public key management to secure decentralized datastores (blockchains and public databases), so anyone and anything can realize the web of trust.  
+DIDs use [Decentralized Public Key Infrastructure (DPKI)](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT.md) technology by providing identities for people, organizations, and [Internet of things (IoT)](https://en.wikipedia.org/wiki/Internet_of_things). DPKI returns control of identities to the entities they belong to, bringing the power of cryptography to everyday users by delegating the responsibility of public key management to secure decentralized datastores (blockchains and public databases), so anyone and anything can realize the web of trust.  
 
 ## Standards
 * [W3C Decentralized Identifiers](https://www.w3.org/TR/did-core/)
@@ -28,6 +28,13 @@ Verifiable Credentials form the foundation for verifiable data in web of trust. 
 * [The Verifable Credential Data Model 1.0](https://www.w3.org/TR/vc-data-model/)
 
 
+## Building a Trust Model
+A web of trust typically involves the following roles:
+* **Subject** an entity about which verifiable credentials (claims) are made
+* **Holder** an entity that holds one or more verifable credentials in thier wallet and also generates verifiable presentations for the verifiers. Holder is typically the **subject** but in cases where verifiable credentials of a child (**subject**) are held by parents (**holder**)
+* **Issuer** an entity that asserts the claims about **subject(s)** by creating a verifiable credential from the claims and then transmits them to a holder
+* **Verifier** an entity that receives the verifiable credentials (presentations) from a **holder** and verifies the claims asserted by the **issuer** without their knowledge or interaction
+* **Verifable data registry** a system that mediates the creation and verification of identifiers, public keys, verifable credential schemas, revocation registries, etc. A blockchain or public database is typically used as registry and verifiable credential (asserted claims) are never stored in the registry
 
-## Model
-DIDs and VCs typically involves three 
+
+
