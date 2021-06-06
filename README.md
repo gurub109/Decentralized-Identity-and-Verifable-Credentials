@@ -36,7 +36,7 @@ A web of trust typically involves the following roles:
 * **Verifier** an entity that receives the verifiable credentials (presentations) from a **holder** and verifies the claims asserted by the **issuer** without their knowledge or interaction
 * **Verifable data registry** a system that mediates the creation and verification of identifiers, public keys, verifable credential schemas, revocation registries, etc. A blockchain or public database is typically used as registry and verifiable credentials (asserted claims) are never stored in the registry
 
-![image](https://user-images.githubusercontent.com/26188338/120909336-4cda3c80-c631-11eb-8881-cc3422a5f623.png)
-Roles and information flows
+![image](https://user-images.githubusercontent.com/26188338/120909336-4cda3c80-c631-11eb-8881-cc3422a5f623.png "Roles and information flows")
+
 
 
