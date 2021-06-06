@@ -34,7 +34,8 @@ A web of trust typically involves the following roles:
 * **Holder** an entity that holds one or more verifable credentials in thier wallet and also generates verifiable presentations for the verifiers. Holder is typically the **subject** but in cases where verifiable credentials of a child (**subject**) are held by parents (**holder**)
 * **Issuer** an entity that asserts the claims about **subject(s)** by creating a verifiable credential from the claims and then transmits them to a holder
 * **Verifier** an entity that receives the verifiable credentials (presentations) from a **holder** and verifies the claims asserted by the **issuer** without their knowledge or interaction
-* **Verifable data registry** a system that mediates the creation and verification of identifiers, public keys, verifable credential schemas, revocation registries, etc. A blockchain or public database is typically used as registry and verifiable credential (asserted claims) are never stored in the registry
+* **Verifable data registry** a system that mediates the creation and verification of identifiers, public keys, verifable credential schemas, revocation registries, etc. A blockchain or public database is typically used as registry and verifiable credentials (asserted claims) are never stored in the registry
 
+![Figure 1](![image](https://user-images.githubusercontent.com/26188338/120909336-4cda3c80-c631-11eb-8881-cc3422a5f623.png)
 
 
