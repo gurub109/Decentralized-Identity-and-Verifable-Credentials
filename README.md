@@ -13,6 +13,20 @@ DIDs are cryptographically secure identifiers that are owned and controlled by a
 
 DIDs use [Decentralized Public Key Infrastructure (DPKI)](https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/draft-documents/Decentralized-Public-Key-Infrastructure-CURRENT.md) technology by providing identities for people, organizations, and [Internet of things (IoT)](https://en.wikipedia.org/wiki/Internet_of_things). DPKI returns control of identities to the entities they belong to, bringing the power of cryptography to everyday users by delegating the responsibility of public key management to secure decentralized datastores (blockchains and public databases), so anyone and anything can realize the web of trust.  
 
+## Popular Use Cases
+* Education
+  * Digital transcripts
+  * Online class attendance and completion status   
+* Retail
+  * Address verification
+  * Fraud detection 
+* Finance
+  * Reuse KYC (Know Your Customer)
+  * Money transfer 
+* Healthcare
+  * Prescription
+  * Medical records (vaccination, traveling illness, etc.) 
+  
 ## Standards
 * [W3C Decentralized Identifiers](https://www.w3.org/TR/did-core/)
 * [Decentralized Identity Foundation (DID)](https://identity.foundation/)
