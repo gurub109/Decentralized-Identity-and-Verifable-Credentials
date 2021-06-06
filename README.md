@@ -45,7 +45,7 @@ Verifiable Credentials form the foundation for verifiable data in web of trust. 
 # Building a Trust Model
 A web of trust typically involves the following roles:
 * **Subject** an entity about which verifiable credentials (attested claims) are made
-* **Holder** an entity that holds one or more verifiable credentials in their wallet and also generates verifiable presentations for the verifiers. Holder is typically the **subject** but in cases such as minor (**subject**), the verifiable credentials are held by parent (**holder**)
+* **Holder** an entity that holds one or more verifiable credentials in their wallet and also generates verifiable presentations for the verifiers. Holder is typically the **subject** but in cases such as minor (**subject**), the verifiable credentials are held by parent or guardian (**holder**)
 * **Issuer** an entity that asserts the claims about **subject(s)** by creating a verifiable credential from the claims and then transmits them to a holder
 * **Verifier** an entity (relying party) that receives the verifiable credentials (presentations) from a **holder** and verifies the claims asserted by the **issuer** without their knowledge or interaction
 * **Verifiable data registry** a system that mediates the creation and verification of identifiers, public keys, verifiable credential schemas, revocation registries, etc. A [blockchain](https://en.wikipedia.org/wiki/Blockchain) or public database is typically used as registry and verifiable credentials (asserted claims) are never stored in the registry
@@ -54,7 +54,7 @@ A web of trust typically involves the following roles:
 ![image](https://user-images.githubusercontent.com/26188338/120909336-4cda3c80-c631-11eb-8881-cc3422a5f623.png "Roles and information flows")
 
 # Wallets and Agents
-Web of trust model is built on self-certifying identifiers and user-centric cryptography. The role of the user (**holder**) is central to the ecosystem and offers greater sovereignty of their own information and empowerment to manage their digital identity through new class of software known as **digital wallets**.
+Web of trust model is built on self-certifying identifiers and user-centric cryptography. The role of the user (**holder**) is central to the ecosystem and offers greater sovereignty of their own information and empowerment to manage their digital identity and personal information through new class of software known as **digital wallets**.
 
 Digital wallets are applications that allow an end user to manage their digital credentials and associated cryptographic keys. They allow **holders** to prove identity related information about **subject(s)** by sharing a selective disclosure of attributes of the verifiable credentials in a privacy-preserving manner.
 
