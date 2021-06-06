@@ -15,7 +15,7 @@ DIDs use [Decentralized Public Key Infrastructure (DPKI)](https://github.com/Web
 
 ## Standards
 * [W3C Decentralized Identifiers](https://www.w3.org/TR/did-core/)
-* [Decentralized Identity Foundation (DID](https://identity.foundation/)
+* [Decentralized Identity Foundation (DID)](https://identity.foundation/)
 * [Hyperledger Project at Linux Foundation](https://www.hyperledger.org/use/aries)
 
 # Verifiable Credentials
