@@ -28,15 +28,22 @@ Verifiable Credentials form the foundation for verifiable data in web of trust. 
 * [The Verifable Credential Data Model 1.0](https://www.w3.org/TR/vc-data-model/)
 
 
-## Building a Trust Model
+# Building a Trust Model
 A web of trust typically involves the following roles:
 * **Subject** an entity about which verifiable credentials (claims) are made
 * **Holder** an entity that holds one or more verifable credentials in thier wallet and also generates verifiable presentations for the verifiers. Holder is typically the **subject** but in cases where verifiable credentials of a child (**subject**) are held by parents (**holder**)
 * **Issuer** an entity that asserts the claims about **subject(s)** by creating a verifiable credential from the claims and then transmits them to a holder
-* **Verifier** an entity that receives the verifiable credentials (presentations) from a **holder** and verifies the claims asserted by the **issuer** without their knowledge or interaction
+* **Verifier** an entity (relying party) that receives the verifiable credentials (presentations) from a **holder** and verifies the claims asserted by the **issuer** without their knowledge or interaction
 * **Verifable data registry** a system that mediates the creation and verification of identifiers, public keys, verifable credential schemas, revocation registries, etc. A blockchain or public database is typically used as registry and verifiable credentials (asserted claims) are never stored in the registry
 
 ![image](https://user-images.githubusercontent.com/26188338/120909336-4cda3c80-c631-11eb-8881-cc3422a5f623.png "Roles and information flows")
+
+# Wallets and Agents
+Web of trust model is built on self-certifying identifiers and user-centric cryptography. The role of the user (**holder**) is central to the ecosystem and offers greater sovereignty of thier own information and empowerement to manage thier digital identity through new class of software known as **digital wallets**.
+
+Digital wallets are applications that allow an end user to manage thier digital credentials and associated crytographic keys. They allow **holders** to prove identity related information about **subject(s)** by sharing a selective disclosure of attributes of the verifiable credentials in a privacy-preserving manner.
+
+The concept of wallet can be further identified as a simple Wallet or Agent. The role of a wallet is to store keys, credentials and secrets. An agent is a software that controls access to a wallet and other storage, which can live in different locations on a network (cloud vs local), and can facilitate or perform messaging or interaction with other agents.
 
 
 
