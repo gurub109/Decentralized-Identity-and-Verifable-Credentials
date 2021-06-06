@@ -21,7 +21,7 @@ To deliver Web of Trust model, Microsoft implemented following key components:
    * Provides an issuance and verification API and open-source SDK for W3C Verifiable Credentials that are signed with the did:ion method
    * It enables identity owners to generate, present, and verify claims which enables the trust between users of the systems       
 
-## Open-sources components of Microsoft service
+## Open-source components of Microsoft service
 1. [SideTree, on GitHub](https://github.com/decentralized-identity/sidetree)
 2. [The VC SDK for Node, on GitHub](https://github.com/microsoft/VerifiableCredentials-Verification-SDK-Typescript)
 3. [An Android SDK for building decentralized identity wallets,on GitHub](https://github.com/microsoft/VerifiableCredential-SDK-Android)
