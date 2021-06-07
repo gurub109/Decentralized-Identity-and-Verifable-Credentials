@@ -7,7 +7,7 @@ The internet in its current form has made it difficult to establish trust with o
 To fix the above fundamental problem, we need a system that inherently provides [Web of Trust](https://en.wikipedia.org/wiki/Web_of_trust) and allowing the users to control their identities and to move their personal data freely from one online system to other without fear of vendor lock-in. 
 
 # Decentralized Identity
-Decentralized Identity (DID), also know as "self-sovereign identity" (or SSI) is driven by open web standards at organizations such as W3C, Decentralized Identity Foundation (DIF) and the Hyperledger Project at Linux Foundation.
+Decentralized Identifier (DID), also know as "self-sovereign identity" (or SSI) is driven by open web standards at organizations such as W3C, Decentralized Identity Foundation (DIF) and the Hyperledger Project at Linux Foundation.
 
 DIDs are cryptographically secure identifiers that are owned and controlled by a user without a third-party Identity Providers (IdPs). It enables the user to prove the ownership of the identity using thier wallet (e.g., a mobile device). With their DID, the user can obtain Verifiable Credentials (VCs) from trusted organizations and, subsequently, present elements of these credentials as proof of claims without the need to authenticate with service providers using usernames and passwords.
 
