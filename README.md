@@ -39,7 +39,6 @@ Verifiable Credentials form the foundation for verifiable data in web of trust. 
 
 ## Standards
 * [W3C Verifiable Credentials](https://www.w3.org/TR/vc-data-model/)
-* [The Verifiable Credential Data Model 1.0](https://www.w3.org/TR/vc-data-model/)
 
 
 # Building a Trust Model
